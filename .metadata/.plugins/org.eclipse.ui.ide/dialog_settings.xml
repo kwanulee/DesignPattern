@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/Users/kwanwoo/Dropbox/2020-1/소프트웨어설계패턴/PatternExample-master/decorator/StarbuzzAlternative"/>
+			<item value="/Users/kwanwoo/Dropbox/2020-1/소프트웨어설계패턴/PatternExample-master/observer/SwingObserverExample"/>
+			<item value="/Users/kwanwoo/Dropbox/2020-1/소프트웨어설계패턴/PatternExample-master/observer/WeatherStationObservable"/>
+			<item value="/Users/kwanwoo/Dropbox/2020-1/소프트웨어설계패턴/PatternExample-master/observer/WeatherStationObserverPattern"/>
+			<item value="/Users/kwanwoo/Dropbox/2020-1/소프트웨어설계패턴/PatternExample-master/observer/WeatherStationObserverPatternExercise"/>
+			<item value="/Users/kwanwoo/Dropbox/2020-1/소프트웨어설계패턴/PatternExample-master/strategy/SimUDuckApp.Revision5"/>
+			<item value="/Users/kwanwoo/Dropbox/2020-1/소프트웨어설계패턴/PatternExample-master/strategy/SimUDuckApp.Revision4"/>
+			<item value="/Users/kwanwoo/Dropbox/2020-1/소프트웨어설계패턴/PatternExample-master/strategy/SimUDuckApp.Revision3"/>
+			<item value="/Users/kwanwoo/Dropbox/2020-1/소프트웨어설계패턴/PatternExample-master/strategy/SimUDuckApp.Revision2"/>
+			<item value="/Users/kwanwoo/Dropbox/2020-1/소프트웨어설계패턴/PatternExample-master/strategy/SimUDuckApp.v0"/>
+			<item value="/Users/kwanwoo/Dropbox/2020-1/소프트웨어설계패턴/PatternExample-master/strategy/SimUDuckApp.Revision1"/>
+		</list>
+	</section>
+</section>
