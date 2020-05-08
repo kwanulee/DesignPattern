@@ -4,15 +4,15 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class Waitress {
-	ArrayList<MenuItem> menus;
+	ArrayList<Menu> menus;
 
 
-	public Waitress(ArrayList<MenuItem> menus) {
+	public Waitress(ArrayList<Menu> menus) {
 		this.menus = menus;
 	}
 
 	public void printMenu() {
-		Iterator<?> menuIterator = menus.iterator();
+		Iterator<Menu> menuIterator = menus.iterator();
 		while(menuIterator.hasNext()) {
 			Menu menu = (Menu)menuIterator.next();
 			printMenu(menu.createIterator());
