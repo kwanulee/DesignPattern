@@ -2,15 +2,15 @@
 
 To get code running on localhost: 
 
-1. Change directories to the same level with headfirst/ folder in bin/
+1. Change directories to gumball/bin/
 
 2. Run rmiregistry in background:
 rmiregistry &
 
 3. Run:
-java hansung/designpatterns/proxy/gumball/GumballMachineTestDrive localhost 300
+java hansung/designpatterns/proxy/GumballMachineTestDrive localhost 300
 
 4. In a different window, run:
-java hansung/designpatterns/proxy/gumball/GumballMonitorTestDrive localhost
+java hansung/designpatterns/proxy/GumballMonitorTestDrive localhost
 
 
