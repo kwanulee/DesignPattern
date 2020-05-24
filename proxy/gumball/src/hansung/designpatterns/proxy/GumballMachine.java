@@ -60,18 +60,6 @@ public class GumballMachine
 		this.count = count;
 		state = noQuarterState;
 	}
- 
-	public int getCount() {
-		return count;
-	}
- 
-    public State getState() {
-        return state;
-    }
- 
-    public String getLocation() {
-        return location;
-    }
   
     public State getSoldOutState() {
         return soldOutState;
@@ -104,5 +92,17 @@ public class GumballMachine
 		result.append("\n");
 		result.append("Machine is " + state + "\n");
 		return result.toString();
+	}
+
+	public int getCount() throws RemoteException {
+		return count;
+	}
+
+	public String getLocation() throws RemoteException {
+		return location;
+	}
+
+	public State getState() throws RemoteException {
+		return state;
 	}
 }

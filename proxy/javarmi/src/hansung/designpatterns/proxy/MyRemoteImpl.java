@@ -9,7 +9,7 @@ public class MyRemoteImpl extends UnicastRemoteObject implements MyRemote{
 	protected MyRemoteImpl() throws RemoteException {}
 
 	public String sayHello() throws RemoteException {
-		return "Server syas, 'Hey'";
+		return "Server says, 'Hey'";
 	}
 	
 	public static void main(String[] args) {
