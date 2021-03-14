@@ -1,4 +1,4 @@
-package hansung.designpatterns.singleton.chocolate;
+package hansung.designpatterns.singleton.classic;
  
 public class ChocolateController {
 	public static void main(String args[]) {

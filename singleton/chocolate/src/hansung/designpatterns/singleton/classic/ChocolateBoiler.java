@@ -1,4 +1,4 @@
-package hansung.designpatterns.singleton.chocolate;
+package hansung.designpatterns.singleton.classic;
  
 public class ChocolateBoiler {
 	private boolean empty;
@@ -11,12 +11,10 @@ public class ChocolateBoiler {
 		System.out.println("Creating unique instance of Chocolate Boiler");
 	}
   
-	public static synchronized ChocolateBoiler getInstance() {
+	public static ChocolateBoiler getInstance() {
 		if (uniqueInstance == null) {
-			
 			uniqueInstance = new ChocolateBoiler();
-		} else 
-			System.out.println("Returning instance of Chocolate Boiler");
+		} 
 		return uniqueInstance;
 	}
 

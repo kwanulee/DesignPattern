@@ -1,26 +1,21 @@
-package hansung.designpatterns.singleton.chocolate;
+package hansung.designpatterns.singleton.threadsafe;
  
 public class ChocolateBoiler {
 	private boolean empty;
 	private boolean boiled;
-	private volatile static ChocolateBoiler uniqueInstance;
+	private static ChocolateBoiler uniqueInstance;
   
 	private ChocolateBoiler() {
 		empty = true;
 		boiled = false;
+		System.out.println("Creating unique instance of Chocolate Boiler");
 	}
   
-	public static  ChocolateBoiler getInstance() {
+	public static synchronized ChocolateBoiler getInstance() {
 		if (uniqueInstance == null) {
-			synchronized (ChocolateBoiler.class) {
-				if (uniqueInstance == null) { 
-					System.out.println("Creating unique instance of Chocolate Boiler");
-					uniqueInstance = new ChocolateBoiler();
-				} else
-					System.out.println("Returning instance of Chocolate Boiler");
-			}
-		} else 
-			System.out.println("Returning instance of Chocolate Boiler");
+			
+			uniqueInstance = new ChocolateBoiler();
+		} 
 		return uniqueInstance;
 	}
 
