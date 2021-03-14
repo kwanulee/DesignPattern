@@ -1,0 +1,13 @@
+META-INF/CompilerHints
+com/sample/singleton_benchmark/ChocolateBoiler_Static.class
+com/sample/singleton_benchmark/jmh_generated/MyBenchmark_jmhType_B1.class
+com/sample/singleton_benchmark/jmh_generated/MyBenchmark_jmhType_B3.class
+com/sample/singleton_benchmark/jmh_generated/MyBenchmark_testDCL_jmhTest.class
+com/sample/singleton_benchmark/MyBenchmark.class
+com/sample/singleton_benchmark/ChocolateBoiler_DCL.class
+com/sample/singleton_benchmark/jmh_generated/MyBenchmark_testStatic_jmhTest.class
+META-INF/BenchmarkList
+com/sample/singleton_benchmark/ChocolateBoiler_TS.class
+com/sample/singleton_benchmark/jmh_generated/MyBenchmark_jmhType.class
+com/sample/singleton_benchmark/jmh_generated/MyBenchmark_testMethod_jmhTest.class
+com/sample/singleton_benchmark/jmh_generated/MyBenchmark_jmhType_B2.class

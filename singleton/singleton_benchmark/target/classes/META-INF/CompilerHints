@@ -1,0 +1,8 @@
+dontinline,*.*_all_jmhStub
+dontinline,*.*_avgt_jmhStub
+dontinline,*.*_sample_jmhStub
+dontinline,*.*_ss_jmhStub
+dontinline,*.*_thrpt_jmhStub
+inline,com/sample/singleton_benchmark/MyBenchmark.testDCL
+inline,com/sample/singleton_benchmark/MyBenchmark.testMethod
+inline,com/sample/singleton_benchmark/MyBenchmark.testStatic
