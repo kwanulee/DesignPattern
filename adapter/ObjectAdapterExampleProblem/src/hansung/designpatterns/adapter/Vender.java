@@ -1,5 +1,5 @@
 package hansung.designpatterns.adapter;
 
-public interface VenderClass {
+public interface Vender {
 	void request();
 }

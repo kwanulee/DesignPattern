@@ -1,9 +1,9 @@
 package hansung.designpatterns.adapter;
 
-public class VenderClassAdapter implements VenderClass {
-	Vender2Class vender;
+public class VenderAdapter implements Vender {
+	Vender2 vender;
 	
-	public VenderClassAdapter (Vender2Class vender) {
+	public VenderAdapter (Vender2 vender) {
 		this.vender = vender;
 	}
 	
